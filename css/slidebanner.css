@@ -1,0 +1,133 @@
+*{margin:0; padding:0;}
+
+/* 슬라이드배너 꾸미기 */
+.slide { width:1110px; height:654px;}
+.slide .swiper-slide {text-align: center; font-size: 18px; background: #fff;
+			  /* Center slide text vertically */
+			  display: -webkit-box;
+			  display: -ms-flexbox;
+			  display: -webkit-flex;
+			  display: flex;
+			  -webkit-box-pack: center;
+			  -ms-flex-pack: center;
+			  -webkit-justify-content: center;
+			  justify-content: center;
+			  -webkit-box-align: center;
+			  -ms-flex-align: center;
+			  -webkit-align-items: center;
+			  align-items: center;
+			}
+.slide  .swiper-slide img{width:100%;}
+
+/*이동버튼 영역*/
+#tab01 .swiper-button-next:after,
+#tab01 .swiper-button-prev:after{display:none;}/* 소스에 들어있는 버튼 삭제 */
+#tab01 .swiper-button-next,
+#tab01 .swiper-button-prev{width:38px; height:60px;}/* 버튼 크기 */
+#tab01 .swiper-button-prev{left:25px; top: 400px; background:url(../images/icon_left.png);}/* 버튼 위치, 버튼 이미지 */
+#tab01 .swiper-button-next{right:25px; top: 400px; background:url(../images/icon_right.png);}/* 버튼 위치, 버튼 이미지 */
+#tab01 .swiper-button-prev:hover{background:url(../images/hover_icon_left.png);}/* 버튼 호버 이미지 */
+#tab01 .swiper-button-next:hover{background:url(../images/hover_icon_right.png);}/* 버튼 호버 이미지 */
+
+/*블릿버튼 영역*/
+#tab01 .swiper-pagination-bullet{background:rgb(255, 255, 255); width:10px; height:10px; opacity:0.5;}/* 블릿버튼 크기, 색상, 투명도 */
+#tab01 .swiper-pagination-bullet-active{opacity:1;
+	width: 40px;
+	border-radius: 25px;
+}
+/* 블릿버튼 페이지 표시날 때 투명도 */
+#tab01 .swiper-pagination-fraction, 
+#tab01 .swiper-pagination-custom, 
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets{bottom:20px;}/* 블릿버튼 위치 */
+
+.swiper-container{
+	padding-top: 80px;
+}
+
+/*tab2*/
+/*이동버튼 영역*/
+#tab02 .swiper-button-next:after,
+#tab02 .swiper-button-prev:after{display:none;}/* 소스에 들어있는 버튼 삭제 */
+#tab02 .swiper-button-next,
+#tab02 .swiper-button-prev{width:38px; height:60px;}/* 버튼 크기 */
+#tab02 .swiper-button-prev{left:25px; top: 400px; background:url(../images/icon_left.png);}/* 버튼 위치, 버튼 이미지 */
+#tab02 .swiper-button-next{right:25px; top: 400px; background:url(../images/icon_right.png);}/* 버튼 위치, 버튼 이미지 */
+#tab02 .swiper-button-prev:hover{background:url(../images/hover_icon_left.png);}/* 버튼 호버 이미지 */
+#tab02 .swiper-button-next:hover{background:url(../images/hover_icon_right.png);}/* 버튼 호버 이미지 */
+
+/*블릿버튼 영역*/
+#tab02 .swiper-pagination-bullet{background:rgb(255, 255, 255); width:10px; height:10px; opacity:0.5;}/* 블릿버튼 크기, 색상, 투명도 */
+#tab02 .swiper-pagination-bullet-active{opacity:1;
+	width: 40px;
+	border-radius: 25px;
+}
+/* 블릿버튼 페이지 표시날 때 투명도 */
+#tab02 .swiper-pagination-fraction, 
+#tab02 .swiper-pagination-custom, 
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets{bottom:20px;}/* 블릿버튼 위치 */
+
+/*tab3*/
+/*이동버튼 영역*/
+#tab03 .swiper-button-next:after,
+#tab03 .swiper-button-prev:after{display:none;}/* 소스에 들어있는 버튼 삭제 */
+#tab03 .swiper-button-next,
+#tab03 .swiper-button-prev{width:38px; height:60px;}/* 버튼 크기 */
+#tab03 .swiper-button-prev{left:25px; top: 400px; background:url(../images/icon_left.png);}/* 버튼 위치, 버튼 이미지 */
+#tab03 .swiper-button-next{right:25px; top: 400px; background:url(../images/icon_right.png);}/* 버튼 위치, 버튼 이미지 */
+#tab03 .swiper-button-prev:hover{background:url(../images/hover_icon_left.png);}/* 버튼 호버 이미지 */
+#tab03 .swiper-button-next:hover{background:url(../images/hover_icon_right.png);}/* 버튼 호버 이미지 */
+
+/*블릿버튼 영역*/
+#tab03 .swiper-pagination-bullet{background:rgb(255, 255, 255); width:10px; height:10px; opacity:0.5;}/* 블릿버튼 크기, 색상, 투명도 */
+#tab03 .swiper-pagination-bullet-active{opacity:1;
+	width: 40px;
+	border-radius: 25px;
+}
+/* 블릿버튼 페이지 표시날 때 투명도 */
+#tab03 .swiper-pagination-fraction, 
+#tab03 .swiper-pagination-custom, 
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets{bottom:20px;}/* 블릿버튼 위치 */
+
+/*tab4*/
+/*이동버튼 영역*/
+#tab04 .swiper-button-next:after,
+#tab04 .swiper-button-prev:after{display:none;}/* 소스에 들어있는 버튼 삭제 */
+#tab04 .swiper-button-next,
+#tab04 .swiper-button-prev{width:38px; height:60px;}/* 버튼 크기 */
+#tab04 .swiper-button-prev{left:25px; top: 400px; background:url(../images/icon_left.png);}/* 버튼 위치, 버튼 이미지 */
+#tab04 .swiper-button-next{right:25px; top: 400px; background:url(../images/icon_right.png);}/* 버튼 위치, 버튼 이미지 */
+#tab04 .swiper-button-prev:hover{background:url(../images/hover_icon_left.png);}/* 버튼 호버 이미지 */
+#tab04 .swiper-button-next:hover{background:url(../images/hover_icon_right.png);}/* 버튼 호버 이미지 */
+
+/*블릿버튼 영역*/
+#tab04 .swiper-pagination-bullet{background:rgb(255, 255, 255); width:10px; height:10px; opacity:0.5;}/* 블릿버튼 크기, 색상, 투명도 */
+#tab04 .swiper-pagination-bullet-active{opacity:1;
+	width: 40px;
+	border-radius: 25px;
+}
+/* 블릿버튼 페이지 표시날 때 투명도 */
+#tab04 .swiper-pagination-fraction, 
+#tab04 .swiper-pagination-custom, 
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets{bottom:20px;}/* 블릿버튼 위치 */
+
+/*tab5*/
+/*이동버튼 영역*/
+#tab05 .swiper-button-next:after,
+#tab05 .swiper-button-prev:after{display:none;}/* 소스에 들어있는 버튼 삭제 */
+#tab05 .swiper-button-next,
+#tab05 .swiper-button-prev{width:38px; height:60px;}/* 버튼 크기 */
+#tab05 .swiper-button-prev{left:25px; top: 400px; background:url(../images/icon_left.png);}/* 버튼 위치, 버튼 이미지 */
+#tab05 .swiper-button-next{right:25px; top: 400px; background:url(../images/icon_right.png);}/* 버튼 위치, 버튼 이미지 */
+#tab05 .swiper-button-prev:hover{background:url(../images/hover_icon_left.png);}/* 버튼 호버 이미지 */
+#tab05 .swiper-button-next:hover{background:url(../images/hover_icon_right.png);}/* 버튼 호버 이미지 */
+
+/*블릿버튼 영역*/
+#tab05 .swiper-pagination-bullet{background:rgb(255, 255, 255); width:10px; height:10px; opacity:0.5;}/* 블릿버튼 크기, 색상, 투명도 */
+#tab05 .swiper-pagination-bullet-active{opacity:1;
+	width: 40px;
+	border-radius: 25px;
+}
+/* 블릿버튼 페이지 표시날 때 투명도 */
+#tab05 .swiper-pagination-fraction, 
+#tab05 .swiper-pagination-custom, 
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets{bottom:20px;}/* 블릿버튼 위치 */
